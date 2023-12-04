@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .Div {
+  background-color: navy;
+  font-size:150%;
+  color:white;
+	}
+</style>
+</head>
+  <title>Di Giorgio Simone</title>
+<body style="background-color: navy">
+<div class="Div">
+<h1>INTER</h1>
+<p style="font-size: 18pt;">Il Football Club Internazionale Milano, meglio conosciuto come Internazionale o piu' semplicemente come Inter, e' una societa' calcistica italiana con sede nella citta' di Milano.</p>
+<!-- >Partita con il napoli meritatissima</!-->
+<p><span style="font-size: 18pt;">NAPOLI 0-INTER 3</span></p>
+<a style="font-size: 18pt; color: white;" href="https://www.spaziointer.it/" target="_self">Inter news</a>
+<p><img src="https://th.bing.com/th?id=OIF.h%2fYkR563QB9PGN%2bOO6DawA&amp;rs=1&amp;pid=ImgDetMain" /></p>
+</div>
+<table style="width: 100.441%; height: 223px;">
+<tbody>
+<tr style="height: 22px;">
+<th style="width: 18.4123%; height: 22px;">
+<ol>
+<li>PRIMO POSTO</li>
+<li>SECONDO POSTO</li>
+</ol>
+</th>
+<th style="width: 12.5689%; height: 30px;">
+<ul>
+<li>PUNTI</li>
+<li>GOL</li>
+<li>GOL SUBITI</li>
+</ul>
+</th>
+<th style="width: 12.6792%; height: 30px;">JUVE</th>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 18.4123%; height: 30px;">
+<p>INTER</p>
+</td>
+<td style="width: 12.5689%; height: 22px;">35;33;7</td>
+<td style="width: 12.6792%; height: 22px;">&nbsp;</td>
+</tr>
+<tr style="height: 22px;">
+<td style="width: 18.4123%; height: 22px;">JUVE</td>
+<td style="width: 12.5689%; height: 22px;">&nbsp;</td>
+<td style="width: 12.6792%; height: 22px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
