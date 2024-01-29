@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DI GIORGIO SIMONE</title>
+    <style>
+        body {
+            background-image: url('https://th.bing.com/th/id/R.8186bfa851c37d4542655857f6d69ed5?rik=Jxy3%2fnXbKUjtmg&pid=ImgRaw&r=0');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        h1 {
+            border: 2px solid #ffff00;
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+        .blocco-con-sfondo {
+            background-color: #00ff00;
+            padding: 15px;
+            margin: 10px;
+        }
+
+        .testo-con-sfondo {
+            background-color: #ffff00;
+            padding: 5px;
+        }
+
+        .mappa-immagine {
+            border: 2px solid #00ff00;
+            position: relative;
+        }
+
+        .bordo-puntato {
+            border: 1px dashed #ffff00;
+            padding: 10px;
+            background-image: url('https://sfondo.info/i/original/9/6/0/1991.jpg');
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+	<center>
+    <h1>Jannick Sinner</h1>
+	</center>
+    <a href="https://www.iltempo.it/personaggi/2024/01/29/news/jannik-sinner-uomo-oro-vale-40-milioni-38258023/" target="_blank">Link Testuale</a>
+
+    <a href="https://canaltenis.com/wp-content/uploads/2020/11/sinner.jpg" target="_blank"><img src="immagine-link.jpg" alt="Link con Immagine" style="max-width: 100%; height: auto;"></a>
+
+    <table>
+        <tr>
+            <td>Non so niente di tennis ma sono contento per sinner per tre motivi:</td>
+            <td>
+                colonna dei motivi
+                <ol>
+                    <li>E' italiano </li>
+                    <li>Lo e' ma non troppo</li>
+                    <li>E' fortissimo</li>
+                </ol>
+            </td>
+            <td>Colonna 3</td>
+        </tr>
+        <tr>
+            <td>Tifo inter e lui e' milanista</td>
+            <td>Gioco a pallanuoto</td>
+            <td>FORZA INTER</td>
+        </tr>
+        <tr>
+            <td>Non tifero' mai per il milan</td>
+            <td>E non a tennis </td>
+            <td>MILAN M****</td>
+        </tr>
+    </table>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224086.4380622135!2d-74.25987421314498!3d40.69767000538662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258af74ccf479%3A0x25a284ac1135037f!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1613568393324!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    <script>
+        function cambiaTesto() {
+            document.getElementById('testo-da-modificare').innerHTML = 'Djokovic pippone';
+        }
+    </script>
+	<center>
+    <h1>Clicca in alto a sinistra per sapere tutte le informazioni relative al campo da tennis,invece in basso a desrtra ci sono quelle di wikipedia</h1>
+    </center>
+    <div class="blocco-con-bordo">
+        <img src="https://www.casilinanews.it/wp-content/uploads/2018/01/campi-da-tennis.jpg" alt="Mappa Immagine" usemap="#mappa">
+        <map name="mappa">
+            <area shape="rect" coords="0,0,750,750" href="https://tennis-uni.com/it/campo-da-tennis/" alt="Area 1">
+            <area shape="rect" coords="750,750,1500,1500" href="https://it.wikipedia.org/wiki/Campo_da_tennis" alt="Area 2">
+        </map>
+    </div>
+
+    <div class="blocco-con-sfondo">
+        <p id="testo-da-modificare">E' il primo al mondo ma comunque.....</p>
+        <button onclick="cambiaTesto()">Continuo della frase</button>
+    </div>
+
+    <div class="bordo-puntato">
+        <p>Questo blocco ha un bordo puntato, un'immagine di sfondo e utilizza il font Libre Baskerville in corsivo.</p>
+    </div>
+
+</body>
+
+</html>
